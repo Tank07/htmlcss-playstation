@@ -5,6 +5,23 @@ header{
     justify-content: flex-end;
 }
 
-.logo-s{
-    transform: scale(0.2);
+.logo_s{
+    width: 60px;
 } 
+
+/* Prima section Returnal */
+.returnal{
+    background-image: url("../images/returnal-listing-thumb-01-ps5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.logo_rtr{
+    width: 200px;
+}
+
+.w_100{
+    width: 100%;
+    height: 100%;
+}
