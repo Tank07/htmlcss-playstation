@@ -1,0 +1,10 @@
+header{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-s{
+    transform: scale(0.2);
+} 
