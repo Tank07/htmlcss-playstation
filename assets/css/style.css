@@ -37,3 +37,17 @@ header{
 .acc_flex{
     width: calc((100% / 5) - 5px);
 }
+
+/* Sesta section It Takes Two */
+
+.returnal{
+    background-image: url("../images/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.logo_itt{
+    width: 200px;
+}
+
