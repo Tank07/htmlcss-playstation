@@ -26,17 +26,23 @@ header{
     height: 100%;
 }
 
-/* Quarta section accessori Playstation */
+/* Quinta section accessori Playstation */
 
-.adad{
+/* .flex_quattro{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+}  */
 
-.acc_flex{
+.acs_flex{
     width: calc((100% / 5) - 5px);
 }
+
+ @media only screen and (max-width: 768px) {
+    .acs_flex{
+        width: calc((100% / 3) - 5px);
+    }
+  } 
 
 /* Sesta section It Takes Two */
 
