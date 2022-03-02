@@ -65,3 +65,18 @@ header{
     width: 250px;
 }
 
+/* Undicesima section Avengers */
+
+.avengers{
+    background-image: url("../images/ps-now-april-featured-image-block.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 500px;
+}
+
+.logo_psnow{
+    width: 250px;
+}
+
+
