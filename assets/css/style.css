@@ -9,6 +9,10 @@ header{
     width: 60px;
 } 
 
+.dropdown_size{
+    width: 80vw;
+}
+
 /* Prima section Returnal */
 .returnal{
     background-image: url("../images/jumbo-bg.png");
