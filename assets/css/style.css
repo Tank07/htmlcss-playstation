@@ -22,7 +22,7 @@ header{
 }
 
 .logo_rtr{
-    width: 200px;
+    width: 20%;
 }
 
 .w_100{
@@ -30,16 +30,23 @@ header{
     height: 100%;
 }
 
-/* Quinta section accessori Playstation */
+/* Seconda section Ratchet */
 
-/* .flex_quattro{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}  */
+.rtc_hover:hover{
+    /* da fare spazio border */
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+/* Quinta section accessori Playstation */
 
 .acs_flex{
     width: calc((100% / 5) - 5px);
+    filter: opacity(0.5);
+}
+
+.acs_flex:hover{
+    border-bottom: 1px solid blue;
+    filter: opacity(1);
 }
 
  @media only screen and (max-width: 768px) {
@@ -58,10 +65,20 @@ header{
 }
 
 .logo_itt{
-    width: 200px;
+    width: 20%;
+}
+
+/* Settima section Crash */
+
+.bg_crash{
+    background-color: #1f1f1f;
 }
 
 /* Nona section Abe */
+
+.bg_abe{
+    background-color: #bebcbb;
+}
 
 .abe{
     background-image: url("../images/ps-plus-april-monthly-games-featured-image-block.png");
@@ -82,10 +99,14 @@ header{
   } 
 
 .logo_psplus{
-    width: 250px;
+    width: 25%;
 }
 
 /* Undicesima section Avengers */
+
+.bg_avengers{
+    background-color: #161c3b;
+}
 
 .avengers{
     background-image: url("../images/ps-now-april-featured-image-block.png");
@@ -106,7 +127,7 @@ header{
   } 
 
 .logo_psnow{
-    width: 250px;
+    width: 25%;
 }
 
 /* Ultima section footer */
@@ -115,6 +136,9 @@ header{
     width: 15px;
 }
 
+.bg_footer{
+    background-color: #00439c;
+}
 
 
 
